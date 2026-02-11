@@ -1,0 +1,33 @@
+GET http://localhost:3001/api/blogs
+
+###
+
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "title": "taaaaas",
+  "author": "Mrsaa2",
+  "url": "https://ddas9399.com",
+  "likes": 315
+}
+
+###
+
+DELETE http://localhost:3001/api/blogs/697b637cc9cfbb96604cb099
+Authorization: Bearer {{token}}
+###
+
+PUT http://localhost:3001/api/blogs/697b84971ca0832e7abe9500
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "title": "test77",
+  "author": "Mr test77",
+  "url": "https://aaaaaa77.com",
+  "likes": 77
+}
+
+###

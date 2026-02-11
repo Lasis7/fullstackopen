@@ -1,0 +1,4 @@
+node_modules
+.env
+.vscode
+execute_specific_tests.txt
